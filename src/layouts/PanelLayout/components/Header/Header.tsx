@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { Flex, theme, Typography } from "antd";
+import { Flex, Typography } from "antd";
 import { HEADER_HEIGHT } from "src/constants/style";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
