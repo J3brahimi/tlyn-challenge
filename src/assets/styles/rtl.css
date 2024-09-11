@@ -1,0 +1,11 @@
+main[dir="rtl"] .ant-menu-item-selected::before{
+    left: unset;
+    right: -50px;
+    transform: rotate(180deg);
+}
+main[dir="rtl"] .ant-menu-sub{
+    margin-left: unset;
+    margin-right: auto;
+    border-left:unset !important;
+    border-right:1px solid #3356a6 !important;
+}

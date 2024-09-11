@@ -1,0 +1,2 @@
+export const DEFAULT_GOLD_BALANCE = "10";
+export const DEFAULT_RIAL_BALANCE = "100000000";

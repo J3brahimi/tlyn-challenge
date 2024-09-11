@@ -1,0 +1,14 @@
+version: "3.4"
+services:
+  react_vite_docker:
+    container_name: react_vite_docker
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - 8888:8888
+    environment:
+      VITE_API_BASE_URL: ${VITE_API_BASE_URL:-http://188.213.198.213:8000}

@@ -1,0 +1,140 @@
+/* Move required input label(*) from left to right  */
+.ant-form-item-required::before {
+  position: absolute;
+  left: -16px;
+  top: -2px;
+  font-size: 16px;
+  color: #000c2f !important;
+}
+
+/* Style input placeholder  */
+input::placeholder {
+  font-size: 14px;
+  color: #546e7a;
+}
+
+/* Style input validate message  */
+.ant-form-item-explain-error {
+  font-size: 12px;
+  margin-top: 4px;
+}
+
+/* *** Typography ***  */
+
+/* Typography */
+h1.ant-typography {
+  font-weight: 700;
+  letter-spacing: -0.48px;
+  line-height: 64px;
+}
+h2.ant-typography {
+  font-weight: 400;
+  line-height: 40px;
+}
+h3.ant-typography {
+  font-weight: 700;
+  line-height: 32px;
+}
+h4.ant-typography {
+  font-weight: 400;
+  letter-spacing: 0.72px;
+  line-height: 24px;
+}
+span.ant-typography.ant-typography-secondary {
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.28px;
+}
+
+/* *** TABLE ***  */
+
+/* Add border to table  */
+.ant-table-content {
+  border-radius: 16px;
+  border: 1px solid #eceff1;
+  overflow: hidden;
+}
+
+/* Remove table header cell left border  */
+.ant-table-thead .ant-table-cell::before {
+  display: none;
+}
+
+/* Change table header background  */
+.ant-table-thead .ant-table-cell {
+  background-color: #fafafa !important;
+  color: #90a4ae !important;
+  font-size: 14px;
+  font-weight: 400 !important;
+  line-height: 24px;
+  letter-spacing: 0.28px;
+}
+
+.ant-table-cell {
+  font-size: 14px;
+  font-weight: 400 !important;
+  line-height: 24px;
+  letter-spacing: 0.28px;
+}
+
+/* Expand section  */
+.ant-table-expanded-row {
+  background-color: #eaeeff !important;
+  border-left: 2px solid #3356a6 !important;
+}
+
+.ant-table-expanded-row td {
+  padding: 32px !important;
+  border-left: 2px solid #3356a6;
+}
+
+/* Table pagination section  */
+/* .ant-custom-table-pagination {
+  border-radius: 16px;
+  border: 1px solid #eceff1;
+  background: #fafafa;
+  padding: 12px 18px;
+}
+.ant-custom-table-pagination .ant-pagination-total-text {
+  margin-right: auto;
+  color: #546e7a;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+} */
+
+/* *** Pagination ***  */
+.ant-pagination-item {
+  border-radius: 4px !important;
+}
+
+.ant-pagination-item-active a {
+  color: #f8f9ff !important;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+/* *** Tab ***  */
+.ant-tabs-tab-btn {
+  border-radius: 8px;
+  padding: 8px 12px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  color: #90a4ae;
+  letter-spacing: 0.32px;
+  user-select: none;
+}
+.ant-tabs-tab-btn[aria-selected="true"] {
+  background: #3356a6;
+  color: #f8f9ff !important;
+}
+.ant-tabs-ink-bar {
+  display: none;
+}
+
+.ant-btn-icon {
+  margin-inline-start: 0 !important;
+  display: none;
+}
